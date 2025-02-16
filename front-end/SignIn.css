@@ -145,10 +145,20 @@ body {
 
 .text-3, .text-4 {
     font-family: Montserrat, sans-serif;
-    color: #c8c8c8;
     font-size: 16px;
     font-weight: 500;
+    color: black;
     padding-left: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.text-3::placeholder, .text-4::placeholder {
+    color: #c8c8c8;
 }
 
 .text-5 {
@@ -158,18 +168,20 @@ body {
     color: black;
     font-weight: 600;
     margin-top: 15px;
+    text-decoration: none;
 }
 
 .text-7-container {
     display: flex;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 .text-7 {
     font-family: Montserrat, sans-serif;
     text-align: center;
     font-size: 16px;
+    font-weight: 600;
     color: #fd5722;
     text-decoration: underline;
 }
@@ -194,6 +206,7 @@ body {
     min-height: 57px;
     background-color: #F5F5F5;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
 }
 
 .text-8, .text-9 {
